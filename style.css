@@ -171,7 +171,11 @@ section {
 
 .project-card:hover .project-image {
     opacity: 0.9;
- }
+}
+
+.project-image img{
+    width: 100%
+}
 
 .project-info {
     padding: 1em;
