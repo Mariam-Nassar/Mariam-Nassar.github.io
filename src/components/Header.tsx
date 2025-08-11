@@ -17,11 +17,18 @@ const Header = () => {
               "I build AI tools, dashboards, web systems. Available for freelance work."
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
-              <a
+{/*               <a
                 href="mailto:mariam.sut115@gmail.com"
                 className="flex items-center gap-2 bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg transition-all duration-300 hover:scale-105"
               >
                 <Mail size={20} />
+                Email
+              </a> */}
+              <a
+                href="mailto:mariam.sut115@gmail.com"
+                class="flex items-center gap-2 bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg transition-all duration-300 hover:scale-105"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" /></svg>
                 Email
               </a>
               <a
